@@ -4,8 +4,46 @@ import streamlit as st
 st.set_page_config(page_title="Negative Effect of Social Media", layout="centered")
 st.title("Negative Effect of the Social Media")
 
-# Properly escaped HTML inside triple quotes
+# HTML content
 html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NEGATIVE EFFECT OF THE SOCIAL MEDIA</title>
+</head>
+<body bgcolor="#FFFFFF">
+
+<h3><i><u>AN ARTICLE PUBLISHED BY A GHANAIAN STUDENT.</u></i></h3>
+
+<img style="float: right; margin: 10px; cursor: zoom-in;" src="pic1.png" height="250" alt="Picture of the writer">
+
+<p>
+  Owusu Prince Boateng is my name from Dasein, Pokuasae Branch. You and I, we've heard of 
+  <mark style="background-color:#00FF00"><b><i><u>social media</u></i></b></mark>
+  and we are available on those medias, popular ones are.
+  Due to my limited time, let me dive you into the negative aspect since we don't give much attention to 
+  but affects us in a way we don't see it. You can share your thought with me on <a href="doc2.html">poboat25@gmail.com</a>.
+  <i><b>Now let's zero in on the effects!!</b></i>
+</p>
+
+<br>
+<b><u>The Double-Edge Sword of Social Media</u></b><br>
+<p>
+Social media has woven itself into the fabric of modern life, transforming how we communicate, share and perceive the world. Platforms like
+<a href="doc2.html">Facebook</a>
+<img src="fbb.jpg" alt="Logo" style="width: 25px; height: 25px; vertical-align: middle;">,
+
+<a href="doc2.html">Instagram</a>
+<img src="ins.jpg" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;">,
+
+<a href="doc2.html">Twitter(X)</a>
+<img src="xxxxxxx.png" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;"> and
+
+<a href="doc2.html">Tiktok</a>
+<img src="tok.jpg" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;">
+have become essential tools for staying connected, building communities and consuming content. However, beneath their seemingly harmless interface lies a complex web of effects — both positive and negative — that shape our mental health, relationships and society at large.
+</p>
+
 <p>
 <b>THE DARK SIDE: Mental and Emotional Impacts</b><br>
 <ul>
@@ -17,9 +55,9 @@ We all have borne witness to such effects. Some content can have a mental impact
 </p>
 
 <p>
-Not going to talk much on this point since most of us are included—"HAHAHA".<br>
+Not going to talk much on this point since most of us are included — "HAHAHA".<br>
 Algorithms on social media are designed to keep users engaged, often leading to compulsive scrolling and reduced productivity. Once you're online, it's hard to log out unless you're out of data.
-Those who are victims know what I'm saying—"gotcha! you're smiling".
+Those who are victims know what I'm saying — "gotcha! you're smiling".
 </p>
 
 <p>
@@ -27,7 +65,7 @@ Those who are victims know what I'm saying—"gotcha! you're smiling".
   <li><b>Cyberbullying:</b></li>
 </ul>
 The anonymity of the internet can embolden harmful behaviours, leaving victims emotionally and psychologically scarred.<br>
-This reminds me of a video I saw online. Two girls insulted a woman publicly. Apparently, the woman had a beef with their friend. The woman threatened to curse them—and she did. Later, one of the girls died mysteriously. The other, scared, came online crying and seeking forgiveness—but the woman refused.
+This reminds me of a video I saw online. Two girls insulted a woman publicly. Apparently, the woman had a beef with their friend. The woman threatened to curse them — and she did. Later, one of the girls died mysteriously. The other, scared, came online crying and seeking forgiveness — but the woman refused.
 </p>
 
 <p>This is a clear example of emotional and psychological trauma.</p>
@@ -37,7 +75,7 @@ This reminds me of a video I saw online. Two girls insulted a woman publicly. Ap
   <li><b>Misinformation:</b></li>
 </ul>
 False or misleading content spreads rapidly, influencing public opinion and even swaying elections.<br>
-We know media can spread false information. Recently, I heard that the price of cement had reduced—but it turned out to be false.
+We know media can spread false information. Recently, I heard that the price of cement had reduced — but it turned out to be false.
 <p>You’ve been in my shoes before, right?</p>
 </p>
 
@@ -79,7 +117,10 @@ Some trends go against traditional values, believed to have both physical and sp
 <input type="submit" name="next_page" value="Next Page">
 <input type="submit" name="previous_page" value="Previous Page">
 </p>
+
+</body>
+</html>
 """
 
-# Render it in Streamlit
+# Render the HTML
 st.markdown(html_content, unsafe_allow_html=True)
