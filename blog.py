@@ -5,7 +5,7 @@ st.set_page_config(page_title="Negative Effect of Social Media", layout="centere
 st.title("Negative Effect of the Social Media")
 
 # Display the picture using Streamlit
-st.image("pic1.png", width=250, caption="Picture of the writer")  # Make sure pic1.png is in the same folder as app.py
+st.image("pic1.png", width=250, caption="Owusu Prince Boateng")  # Make sure pic1.png is in the same folder as app.py
 
 # HTML content WITHOUT the <img src="pic1.png"> tag
 html_content = """
@@ -19,11 +19,12 @@ html_content = """
 <h3><i><u>AN ARTICLE PUBLISHED BY A GHANAIAN STUDENT.</u></i></h3>
 
 <p>
-  Owusu Prince Boateng is my name from Dasein, Pokuasae Branch. You and I, we've heard of 
+  My name is Owusu Prince Boateng, a student. You and I are familiar with 
   <mark style="background-color:#00FF00"><b><i><u>social media</u></i></b></mark>
-  and we are available on those medias, popular ones are.
-  Due to my limited time, let me dive you into the negative aspect since we don't give much attention to 
-  but affects us in a way we don't see it. You can share your thought with me on <a href="#">poboat25@gmail.com</a>.
+  and most of us actively use the popular platforms.
+  Due to limited time, I’ll focus on the negative aspects things we often overlook 
+  but that affect us in ways we don’t immediately realize 
+  You can share your thought with me on <a href="#">poboat25@gmail.com</a>.
   <i><b>Now let's zero in on the effects!!</b></i>
 </p>
 
