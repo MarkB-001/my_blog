@@ -2,7 +2,7 @@ import streamlit as st
 
 # Streamlit page setup
 st.set_page_config(page_title="NEGATIVE EFFECTS OF SOCIAL MEDIA", layout="centered")
-st.title("Negative Effect of the Social Media")
+st.title("NEGATIVE EFFECTS OF SOCIAL MEDIA")
 
 # Display the picture using Streamlit
 st.image("pic1.png", width=250, caption="Owusu Prince Boateng")  # Make sure pic1.png is in the same folder as app.py
