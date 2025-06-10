@@ -4,7 +4,10 @@ import streamlit as st
 st.set_page_config(page_title="Negative Effect of Social Media", layout="centered")
 st.title("Negative Effect of the Social Media")
 
-# HTML content
+# Display the picture using Streamlit
+st.image("pic1.png", width=250, caption="Picture of the writer")  # Make sure pic1.png is in the same folder as app.py
+
+# HTML content WITHOUT the <img src="pic1.png"> tag
 html_content = """
 <!DOCTYPE html>
 <html>
@@ -15,14 +18,12 @@ html_content = """
 
 <h3><i><u>AN ARTICLE PUBLISHED BY A GHANAIAN STUDENT.</u></i></h3>
 
-<img style="float: right; margin: 10px; cursor: zoom-in;" src="pic1.png" height="250" alt="Picture of the writer">
-
 <p>
   Owusu Prince Boateng is my name from Dasein, Pokuasae Branch. You and I, we've heard of 
   <mark style="background-color:#00FF00"><b><i><u>social media</u></i></b></mark>
   and we are available on those medias, popular ones are.
   Due to my limited time, let me dive you into the negative aspect since we don't give much attention to 
-  but affects us in a way we don't see it. You can share your thought with me on <a href="doc2.html">poboat25@gmail.com</a>.
+  but affects us in a way we don't see it. You can share your thought with me on <a href="#">poboat25@gmail.com</a>.
   <i><b>Now let's zero in on the effects!!</b></i>
 </p>
 
@@ -30,17 +31,10 @@ html_content = """
 <b><u>The Double-Edge Sword of Social Media</u></b><br>
 <p>
 Social media has woven itself into the fabric of modern life, transforming how we communicate, share and perceive the world. Platforms like
-<a href="doc2.html">Facebook</a>
-<img src="fbb.jpg" alt="Logo" style="width: 25px; height: 25px; vertical-align: middle;">,
-
-<a href="doc2.html">Instagram</a>
-<img src="ins.jpg" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;">,
-
-<a href="doc2.html">Twitter(X)</a>
-<img src="xxxxxxx.png" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;"> and
-
-<a href="doc2.html">Tiktok</a>
-<img src="tok.jpg" alt="Logo" style="width: 15px; height: 15px; vertical-align: middle;">
+<a href="#">Facebook</a>,
+<a href="#">Instagram</a>,
+<a href="#">Twitter(X)</a> and
+<a href="#">Tiktok</a>
 have become essential tools for staying connected, building communities and consuming content. However, beneath their seemingly harmless interface lies a complex web of effects — both positive and negative — that shape our mental health, relationships and society at large.
 </p>
 
@@ -122,5 +116,5 @@ Some trends go against traditional values, believed to have both physical and sp
 </html>
 """
 
-# Render the HTML
+# Render the HTML content
 st.markdown(html_content, unsafe_allow_html=True)
