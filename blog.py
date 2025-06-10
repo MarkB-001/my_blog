@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Streamlit page setup
-st.set_page_config(page_title="Negative Effect of Social Media", layout="centered")
+st.set_page_config(page_title="NEGATIVE EFFECTS OF SOCIAL MEDIA", layout="centered")
 st.title("Negative Effect of the Social Media")
 
 # Display the picture using Streamlit
@@ -12,7 +12,7 @@ html_content = """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NEGATIVE EFFECT OF THE SOCIAL MEDIA</title>
+  <title><u>NEGATIVE EFFECTS OF THE SOCIAL MEDIA</title></u>
 </head>
 <body bgcolor="#FFFFFF">
 
@@ -99,8 +99,8 @@ Some trends go against traditional values, believed to have both physical and sp
 </p>
 
 <br><br>
-<p style="color: #000000;"><b><u>THE PATH FORWARD: Balancing The Scale</u></b></p>
-<p style="color: #000000;">
+<p style="color: #FFFFFF;"><b><u>THE PATH FORWARD: Balancing The Scale</u></b></p>
+<p style="color: #FFFFFF;">
 <b><i>Want to continue reading this article?</i></b>
 </p>
 
